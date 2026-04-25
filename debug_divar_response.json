@@ -1,0 +1,49 @@
+{
+  "widget_list": [
+    {
+      "widget_type": "BLOCKING_VIEW",
+      "data": {
+        "@type": "type.googleapis.com/widgets.BlockingViewData",
+        "title": "نیاز به بروزرسانی",
+        "description": "شما از نسخه قدیمی اپلکیشن دیوار استفاده می‌کنید و نیاز است اپلکیشن خود را بروزرسانی کنید",
+        "button_text": "دانلود نسخه جدید",
+        "action": {
+          "type": "OPEN_WEB_PAGE",
+          "payload": {
+            "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+            "link": "https://divar.ir/download",
+            "page_type": "NEW_TAB",
+            "nofollow": true,
+            "try_deeplink_first": false
+          },
+          "page_pop_link": false
+        },
+        "state": "GONE",
+        "button": {
+          "title": "دانلود نسخه جدید",
+          "action": {
+            "type": "OPEN_WEB_PAGE",
+            "payload": {
+              "@type": "type.googleapis.com/widgets.OpenWebPagePayload",
+              "link": "https://divar.ir/download",
+              "page_type": "NEW_TAB",
+              "nofollow": true,
+              "try_deeplink_first": false
+            },
+            "page_pop_link": false
+          },
+          "disable": false,
+          "type": "PRIMARY"
+        },
+        "has_divider": false,
+        "image_size": "UNKNOWN"
+      },
+      "visibility_condition": [],
+      "uid": ""
+    }
+  ],
+  "server_action_log": {},
+  "input_suggestion": {},
+  "suggestion_list": [],
+  "last_post_date": -1
+}
